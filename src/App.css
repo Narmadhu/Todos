@@ -35,3 +35,30 @@
   font-size: 20px;
   cursor: pointer;
 }
+.todo-list {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1em;
+  width: 320px;
+}
+.todo-items {
+  background-color: white;
+  color: green;
+  display: flex;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.delete {
+  text-decoration: none;
+  margin-left: auto;
+  opacity: 0.5;
+  font-weight: bolder;
+  color: green;
+}
+a:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
