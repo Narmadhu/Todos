@@ -1,3 +1,10 @@
+body {
+  min-height: 85vh;
+  background-image: url("./image/backgroundimg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .App {
   background: rgb(3, 3, 3, 0.5);
   width: 350px;
